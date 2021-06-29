@@ -1,0 +1,19 @@
+.Cart__list {
+  background-color: #555555;
+  color: #e7e7e7;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px 24px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Cart__list:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Cart__button {
+  cursor: pointer;
+}
