@@ -1,19 +1,36 @@
 .Cart__list {
-  background-color: #555555;
-  color: #e7e7e7;
+  background-color: white;
+  color: black;
   margin-left: 20%;
   margin-right: 20%;
   padding: 10px 24px;
   border-radius: 4px;
   display: flex;
+  max-width: 100%;
+  height: auto;
   justify-content: space-between;
-}
-
-.Cart__list:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-family: cursive;
+  font-size: 1.4vw;
 }
-
 .Cart__button {
   cursor: pointer;
+  background-color: #f74a4a;
+  color: white;
+  border: white 1px solid;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.Cart__button:active {
+  background-color: #f71414;
+  transform: translateY(1px);
+}
+
+@media only screen and (max-width: 600px) {
+  .Cart__list {
+    font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }

@@ -11,7 +11,7 @@ function Cart() {
         return (
           <div key={item.id}>
             <h5 className="Cart__list">
-              {item.quantity} {item.title}
+              {item.quantity}X {item.title}
               <div>
                 <button
                   className="Cart__button"

@@ -1,19 +1,74 @@
 .Item__list {
-  color: #555555;
-  background-color: #e7e7e7;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 10px 24px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.Item__list:hover {
+  color: black;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  padding: 10px 10px;
+  border-radius: 30px;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  align-self: auto;
+  font-size: 1.5vw;
+  font-family: cursive;
+}
+
+.Item__img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 3px solid;
 }
 
 .Item__button {
+  border-radius: 16px;
+  background-color: #f74a4a;
+  border: white 1px solid;
+  color: white;
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.1s;
   cursor: pointer;
+  max-width: 100%;
+  height: auto;
+  font-size: 2vw;
+}
+.Item__button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  max-width: 100%;
+  height: auto;
+}
+.Item__button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.1s;
+}
+.Item__button:hover span {
+  padding-right: 30px;
+}
+.Item__button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.Item__button:active {
+  background-color: #f71414;
+  transform: translateY(1px);
+}
+
+@media only screen and (max-width: 600px) {
+  .Item__button {
+    font-size: 4vw;
+  }
+  .Item__list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font-size: 3vw;
+  }
 }

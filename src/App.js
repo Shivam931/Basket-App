@@ -9,22 +9,27 @@ function App() {
   return (
     <div className="App">
       <header className="App__header">
-        <h1>BasketApp</h1>
+        <h1>ICE-CREAM BASKET</h1>
       </header>
       <div className="App__body">
         <CartProvider>
           <main className="App__bodyLeft">
-            <h2>Groceries</h2>
+            <h2 className="App__bodyHeader">FLAVORS...</h2>
             <section>
               {data.productData.map((item) => {
                 return (
-                  <Itemcart title={item.title} item={item} key={item.id} />
+                  <Itemcart
+                    title={item.title}
+                    img={item.img}
+                    item={item}
+                    key={item.id}
+                  />
                 );
               })}
             </section>
           </main>
           <main className="App__bodyRight">
-            <h2>Your Basket</h2>
+            <h2 className="App__bodyHeader">YOUR BASKET</h2>
             <Cart />
           </main>
         </CartProvider>

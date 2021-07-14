@@ -3,27 +3,57 @@
 }
 
 .App__header {
-  color: aliceblue;
+  font-style: oblique;
+  font-size: 3vw;
+  line-height: 1em;
+  font-family: "Copperplate", Fantasy;
+  color: #06070a;
   position: sticky;
   top: 0;
   z-index: 1;
-  background: linear-gradient(#555555, #9c9595, white);
+  background-image: url(https://media.istockphoto.com/photos/colorful-ice-cream-pattern-on-blue-background-picture-id1278990546?b=1&k=6&m=1278990546&s=170667a&w=0&h=Sqyagm9CCKfV9Cuw9gKwmQPx5896NwajOsBZLJKCqoY=);
   padding: 20px;
-  /* border-bottom: 1px solid lightgray; */
 }
-
 .App__body {
   display: flex;
-  /* justify-content: space-between; */
+}
+.App__bodyHeader {
+  font-family: cursive;
+  font-size: 3vw;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .App__bodyLeft {
-  /* border-right: 1px solid lightgray; */
-  width: 50%;
-  color: #555555;
+  width: 100%;
+  background-color: rgb(169, 238, 206);
+  color: white;
 }
 .App__bodyRight {
-  /* border-left: solid lightgray; */
-  width: 50%;
-  color: #555555;
+  width: 100%;
+  color: white;
+  background-color: rgb(243, 125, 125);
+}
+
+@media only screen and (max-width: 600px) {
+  .App__header {
+    font-size: 4vw;
+  }
+
+  .App__body {
+    display: inline;
+  }
+
+  .App__bodyHeader {
+    font-size: 5vw;
+  }
+
+  .App__bodyLeft {
+    width: 100%;
+    padding: 1px;
+  }
+  .App__bodyRight {
+    width: 100%;
+    padding: 1px;
+  }
 }
