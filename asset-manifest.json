@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Basket-app/static/css/main.67e9a52d.chunk.css",
-    "main.js": "/Basket-app/static/js/main.b6dc641d.chunk.js",
-    "main.js.map": "/Basket-app/static/js/main.b6dc641d.chunk.js.map",
+    "main.css": "/Basket-app/static/css/main.a6b857b3.chunk.css",
+    "main.js": "/Basket-app/static/js/main.04269e42.chunk.js",
+    "main.js.map": "/Basket-app/static/js/main.04269e42.chunk.js.map",
     "runtime-main.js": "/Basket-app/static/js/runtime-main.7bdd467d.js",
     "runtime-main.js.map": "/Basket-app/static/js/runtime-main.7bdd467d.js.map",
     "static/js/2.d00a86d2.chunk.js": "/Basket-app/static/js/2.d00a86d2.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.3f66fcf1.chunk.js": "/Basket-app/static/js/3.3f66fcf1.chunk.js",
     "static/js/3.3f66fcf1.chunk.js.map": "/Basket-app/static/js/3.3f66fcf1.chunk.js.map",
     "index.html": "/Basket-app/index.html",
-    "static/css/main.67e9a52d.chunk.css.map": "/Basket-app/static/css/main.67e9a52d.chunk.css.map",
+    "static/css/main.a6b857b3.chunk.css.map": "/Basket-app/static/css/main.a6b857b3.chunk.css.map",
     "static/js/2.d00a86d2.chunk.js.LICENSE.txt": "/Basket-app/static/js/2.d00a86d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7bdd467d.js",
     "static/js/2.d00a86d2.chunk.js",
-    "static/css/main.67e9a52d.chunk.css",
-    "static/js/main.b6dc641d.chunk.js"
+    "static/css/main.a6b857b3.chunk.css",
+    "static/js/main.04269e42.chunk.js"
   ]
 }
